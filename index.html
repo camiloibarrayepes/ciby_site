@@ -644,36 +644,36 @@ communication with clients to address specific requirements
             </div>
 	    <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
 		    <style>
-		        .portfolio-img {
-		            width: 100%; /* Se ajusta al tamaño del contenedor */
-		            max-height: 200px; /* Altura máxima para evitar que la imagen sea demasiado alta */
-		            overflow: hidden; /* Oculta el contenido que sobresale */
+		        .portfolio-img-big {
+		            width: 100%; 
+		            max-height: 600px;
+		            overflow: hidden; 
 		            display: flex;
 		            justify-content: center;
 		            align-items: center;
 		        }
 		
-		        .portfolio-img img {
-		            width: 100%; /* Se ajusta automáticamente al ancho del contenedor */
-		            height: auto; /* Mantiene la proporción de la imagen */
+		        .portfolio-img-big img {
+		            width: 100%; 
+		            height: auto;
 		            display: block;
 		        }
 		
 		        @media (max-width: 768px) {
-		            .portfolio-img {
-		                max-height: 150px; /* Reduce la altura máxima en pantallas más pequeñas */
+		            .portfolio-img-big {
+		                max-height: 150px;
 		            }
 		        }
 		
 		        @media (max-width: 480px) {
-		            .portfolio-img {
-		                max-height: 100px; /* Reduce aún más la altura en pantallas muy pequeñas */
+		            .portfolio-img-big {
+		                max-height: 100px; 
 		            }
 		        }
 		    </style>
 		
 		    <a href="https://github.com/camiloibarrayepes/musicPlayerVisionOS">
-		        <div class="portfolio-img">
+		        <div class="portfolio-img-big">
 		            <img src="media/portfolio-images/app-gif.gif" alt="Music Player VisionOS">
 		        </div>
 		        <div class="portfolio-name">
