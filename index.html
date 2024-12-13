@@ -645,33 +645,33 @@ communication with clients to address specific requirements
 	    <div class="col-6 mix web-sites wow flipInX">
 	    <style>
 	        .portf-im-b {
-	            width: 100%; 
+	            width: 100%;
 	            max-width: 60%; 
 	            max-height: 200px; 
-	            min-height: 100px; 
-	            overflow: hidden; 
+	            min-height: 100px;
+	            overflow: hidden;
 	            display: flex;
-	            justify-content: center;
+	            justify-content: flex-start; /* Alinea el contenido a la izquierda */
 	            align-items: center;
-	            margin: 0 auto; 
+	            margin: 0;
 	        }
 	
 	        .portf-im-b img {
-	            width: 100%; 
-	            height: auto;
+	            width: auto; 
+	            height: 100%; /* Asegura que la altura sea fija mientras se mantiene la proporción */
 	            display: block;
-	            object-fit: contain; 
+	            object-fit: contain;
 	        }
 	
 	        @media (max-width: 768px) {
 	            .portf-im-b {
-	                max-height: 150px; 
+	                max-height: 150px;
 	            }
 	        }
 	
 	        @media (max-width: 480px) {
 	            .portf-im-b {
-	                max-height: 100px; 
+	                max-height: 100px;
 	            }
 	        }
 	    </style>
@@ -688,6 +688,7 @@ communication with clients to address specific requirements
 	        </div>
 	    </a>
 	</div>
+
 
 
         </div>
